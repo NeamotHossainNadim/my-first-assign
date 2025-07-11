@@ -4,21 +4,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Web Assignment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/assignment.css">
 </head>
 <body>
-    <header>
+    <header class="header">
         <nav>
-            <h3>NHN'S OFFICIAL</h3>
+            <h3 class="nav-title">NHN'S OFFICIAL</h3>
             <ul>
-                <li><a href=""><button>Sign Up</button></a></li>
+                <li><a href=""><button class="nav-btn">Sign Up</button></a></li>
             </ul>
         </nav>
+        <div class="banner-section">
+                <h2 class="banner-heading">Cool Dark UI Template for Webflow Agencies!</h2>
+                <button class="btn-primary">Stay Focused</button>
+        </div>
     </header>
     <main>
+        <div class="action-section">
+            <div class="action-content">
+                <h4 class="action-title">See It in Action</h4>
+                <p class="action-description">Explore the live preview and imagine your brand in this bold new look.</p>
+                <button class="btn-primary">Launch Live Preview</button>
+            </div>
+            <img class="action-img" src="Assets/wc-mini.png" alt="">
+        </div>
+        <div class="Productive-Users-Section">
+    
+        </div>
 
+        <section class="productive-users">
+                <h2 class=" productive-user-title">Joined Thousands of Productive Users</h2>
+            <div class="productive-users-items">
+                    <div class="productive-users-item">
+                    <h3>50K</h3>
+                    <p>Active Users</p>
+                    </div>
+                    <div class="productive-users-item">
+                    <h3>2M+</h3>
+                    <p>Focus Sessions</p>
+                    </div>
+                    <div class="productive-users-item">
+                    <h3>95%</h3>
+                    <p>Satisfaction Rate</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="feedback-Section">
+            <!-- card 01 -->
+            <h3 class="feedback-section-title">What our users say</h3>
+             <div class="card-container">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <div>
+                <h4 class="cad-title">Loved by Designers</h4>
+                <p class="card-description">This template instantly leveled up our presence.” – Studio Vertex</p>
+            </div>
+                <div class="card-img-section">
+                   <img class="card-img" src="Assets/avatar.png" alt="">
+
+                <h5 class="card-sub-title">Reviewer name</h5>
+                </div>
+                <div><span class="date">Date</span></div>
+
+                <!-- card 02 -->
+    
+             <div class="card-container">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <div>
+                <h4 class="cad-title">Loved by Designers</h4>
+                <p class="card-description">This template instantly leveled up our presence.” – Studio Vertex</p>
+            </div>
+                <div class="card-img-section">
+                   <img class="card-img" src="Assets/avatar.png" alt="">
+
+                <h5 class="card-sub-title">Reviewer name</h5>
+                </div>
+                <div><span class="date">Date</span></div>
+
+                <!-- card 03 -->
+          
+             <div class="card-container">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <img src="Assets/icon-star.png" alt="">
+                <div>
+                <h4 class="cad-title">Loved by Designers</h4>
+                <p class="card-description">This template instantly leveled up our presence.” – Studio Vertex</p>
+            </div>
+                <div class="card-img-section">
+                   <img class="card-img" src="Assets/avatar.png" alt="">
+
+                <h5 class="card-sub-title">Reviewer name</h5>
+                </div>
+                <div><span class="date">Date</span></div>
+            </div> 
+        </section>
+
+        <section class="contact-section">
+        <div class="contact-container">
+    
+        <!-- Left Side: Title -->
+        <div class="contact-left">
+        <h2 class="contact-title">Let's Get In Touch</h2>
+        </div>
+
+        <!-- Right Side: Form -->
+        <div class="contact-right">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+
+            <button type="submit">Get in Touch</button>
+      </form>
+    </div>
+  </div>
+</section>
     </main>
     <footer>
-
+        <section class="footer-section">
+                <h3 class="section-title">NHN'S OFFICIAL</h3>
+                <p class="section-description">Ready to elevate your online presence? Contact us today to discuss your project and discover how we can bring your vision to life.</p>
+                <ul class="list-items">
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">How it Works</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </section>
     </footer>
 </body>
 </html>

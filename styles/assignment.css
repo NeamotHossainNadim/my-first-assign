@@ -1,1 +1,246 @@
 
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* shared styles  */
+.primaay-color{
+    background-color: #4E47FF;
+}
+.btn-primary{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+}
+
+/* header Section */
+.header{
+    background-image: url('../Assets/Hero-bg.png');
+    background-repeat: no-repeat;
+    width="100%"
+}
+/* nav style  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 34px;
+    font-family: "Inter", sans-serif;
+    color: rgba(78, 71, 255, 1);
+}
+.nav-btn{
+    font-size: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 30px;
+}
+
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+}
+/* banner styles*/
+.banner-section{
+    text-align: center;
+    margin: 158px 117px;
+}
+.banner-heading{
+    font-family: "Raleway", sans-serif;
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+}
+
+/* Action Section */
+.action-section{
+    display: flex;
+    gap: 220px;
+    margin: 116px 140px;
+}
+.action-title{
+    font-family: "Raleway", sans-serif;
+    font-size:  42px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 0px;
+}
+.action-description{
+    font-family: "Raleway", sans-serif;
+    font-size: 24px;
+    color: #252432;
+}
+.action-img{
+    height: 328px; ;
+    width: 403px;
+    border-radius: 48px;
+}
+
+/* productive-users */
+.productive-users{
+    text-align: center;
+    background-color:rgba(78, 71, 255, 0.1);
+    border-radius: 24px;
+    padding: 50px 140px;
+}
+.productive-user-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    margin-top: 40px ;
+}
+.productive-users-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.productive-users-item h3{
+    font-family: "Inter", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin-bottom: 0px;
+}
+.productive-users-item p{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color:#000000 ;
+    margin-top: 0px;
+}
+
+/* feedback-section */
+
+.feedback-section-title{ 
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+.cad-title{
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #252432;
+}
+.card-description{
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+.card-img{
+    border-radius:50%;
+}
+.card-img-section{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.date{
+    margin-top: 0;
+    margin-left: 45px;
+}
+
+/* form section */
+.contact-section {
+    padding: 40px;
+    background-color: #D6DDED;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.contact-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #252432;
+}
+
+.contact-right {
+    flex: 2;
+    min-width: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    color: #252432;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #4a90e2;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: green;
+}
+/* footer section */
+.list-items{
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+footer ul li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+.section-title{
+     font-weight: 800;
+    font-size: 70px;
+    font-family: "Inter", sans-serif;
+    color: rgba(78, 71, 255, 1);
+    text-align: center;
+}
+.section-description{
+    font-family: "Inter", sans-serif;
+    color: #8987A1;
+    text-align: center;
+    
+}
